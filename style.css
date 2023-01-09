@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body{
+    background-color: #1e1e1e;
+}
+
+#logoDNC {
+    width: 164px;
+    margin-top: 42px;
+    margin-left: 55px;
+}
+
+#formulario {
+    align-items: center;
+    text-align: center;
+
+}
+
+#logoJumpy{
+    width: 311px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 27px;
+    margin-bottom: 43px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Raleway';
+    
+}
+
+.itemRegistro{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 9px;
+    color: #ffffff;
+    text-align: left;
+}
+
+input{
+    width: 524px;
+    height: 52px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: #0c70f2;
+    font-family: 'Raleway';
+    color: #ffffff;
+    font-weight: 800;
+    border: none;
+    width: 524px;
+    height: 48px;
+    font-size: 18px;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+#resposta{
+    margin-top: 9px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 405px;
+}
