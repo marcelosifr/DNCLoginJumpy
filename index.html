@@ -14,28 +14,34 @@
     <div id="formulario">
         <img id="logoJumpy" src="jumpy 1.png">
         <h1> Bem vindo ao Jumpy!</h1>
-        <form>
+        <form id="form">
             <div class="itemRegistro">
                 <label> Nome Completo:</label>
-                <input class="inputDado" type="text" placeholder="João da Silva" required>
+                <input class="inputDado" type="text" placeholder="Nome completo">
+                <div class="error"></div>
+                
             </div>
             <div class="itemRegistro">
                 <label> E-mail:</label>
-                <input class="inputDado" type="email" placeholder="fulano@email.com" required>
+                <input class="inputDado" type="email" placeholder="fulano@email.com">
+                <div class="error"></div>
             </div>
             <div class="itemRegistro">
                 <label> Telefone:</label>
-                <input class="inputDado" type="number" placeholder="(xx) xxxxx-xxxx" required>
+                <input class="inputDado" type="number" placeholder="Somente números">
+                <div class="error"></div>
             </div>
             <div class="itemRegistro">
                 <label> CPF:</label>
-                <input class="inputDado" type="number" placeholder="xxx.xxx.xxx-xx" required>
+                <input class="inputDado" type="number" placeholder="Somente números">
+                <div class="error"></div>
             </div>
             <div class="itemRegistro">    
                 <label> Senha:</label>
-                <input class="inputDado" type="password" placeholder="********" required>
+                <input class="inputDado" type="password" placeholder="de 8-15 caracteres">
+                <div class="error"></div>
             </div>
-            <button class="botaoTeste" type="submit" onclick="registroDado()"> Cadastrar</button>
+            <button id="botaoTeste"  onclick="registroDado()" type="button"> Cadastrar</button>
            
         </form>
        

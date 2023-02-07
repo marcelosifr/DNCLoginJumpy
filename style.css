@@ -3,21 +3,21 @@ body{
     background-color: #1e1e1e;
 }
 
-#logoDNC {
-    width: 164px;
-    margin-top: 42px;
-    margin-left: 55px;
-}
+    #logoDNC {
+        width: 164px;
+        margin-top: 42px;
+        margin-left: 55px;
+    }
 
-#formulario {
-    align-items: center;
-    text-align: center;
+    #formulario {
+        align-items: center;
+        text-align: center;
 
-}
+    }
 
-#logoJumpy{
-    width: 311px;
-}
+    #logoJumpy{
+        width: 311px;
+    }
 
 h1{
     color: #ffffff;
@@ -36,10 +36,10 @@ form {
     
 }
 
-.itemRegistro{
-    display: flex;
-    flex-direction: column;
-}
+        .itemRegistro{
+            display: flex;
+            flex-direction: column;
+        }
 
 form label{
     font-weight: 600;
@@ -47,6 +47,7 @@ form label{
     margin-bottom: 9px;
     color: #ffffff;
     text-align: left;
+    margin-top: 20px;
 }
 
 input{
@@ -54,8 +55,8 @@ input{
     height: 52px;
     border: 1px solid;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
+
 
 button{
     background-color: #0c70f2;
@@ -68,12 +69,24 @@ button{
     font-size: 18px;
     margin-top: 32px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
-#resposta{
-    margin-top: 9px;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 12px;
-    margin-left: 405px;
-}
+    #resposta{
+        margin-top: 9px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 12px;
+        margin-left: 405px;
+    }
+
+        .itemRegistro .error {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: right;
+            margin-top: 0px;
+        
+        }
