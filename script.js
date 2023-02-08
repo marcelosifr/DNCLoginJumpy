@@ -68,6 +68,6 @@ function validacao (){
         error[4].innerHTML = ""
     }
 
-    
+    return false;
 }
 
